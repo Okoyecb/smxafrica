@@ -1,0 +1,271 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.btn:focus, .btn.focus, .btn:active, .form-control:focus {
+	box-shadow: none;
+}
+.active{
+    background: white !important;
+    color:#6C188F !important;
+}
+div[role="tablist"] a{
+    padding: .5em 3.72em;
+    font-size:20px;
+}
+p{
+    font-size: 20px;
+    line-height: 35px;
+}
+.small+form input{
+    border:none;
+    border-radius: 0;
+}
+.small+form .form-group{
+    border:none;
+    border-bottom: 1px solid #000000;
+    border-radius: 0;
+}
+.gray.float-right{
+    margin-top:-1.5em;
+    margin-right:1em;
+}
+/* Color Scheme */
+
+.primarycolor{
+    color:#6C188F;
+}
+.primarybgcolor{
+    background-color:#6C188F;
+}
+.primarybgcolor:hover{
+    background-color:rgb(118, 52, 146);
+}
+.secondarycolor{
+    color: #351633;
+}
+.secondarybgcolor{
+    background-color: #351633;
+}
+.gray{
+    color:#C4C4C4;
+}
+.headbg{
+    background: #FCFCFC;
+    box-shadow: 5px 0px 15px #C4C4C4;
+}
+.headbg2{
+    background: #FCFCFC;
+}
+.orange{
+    color:#FFA43A !important;
+}
+.green{
+    color:#2EB000 !important;
+}
+.graybg2{
+    background-color:rgb(235, 231, 231);
+}
+.graybg{
+    background-color:#C4C4C4;
+}
+
+/* Color Scheme End */
+.rightborder{
+    border-right:1px solid white;
+}
+header{
+    background: url("../images/bgcover.png");
+    background-position: center;
+    background-size: cover;
+    height:44em;
+}
+.headeroverlay{
+   background-color:#2609338f;
+    height:44em;
+}
+.fa.fa-lock{
+    font-size:15em;
+}
+.fa.fa-angle-down{
+    width:50px;
+    height:auto;
+    font-size: 3em;
+    border-radius: 50%;
+    position:absolute;
+    top:-6px;
+    font-weight: 300;
+}
+#half{
+    margin-top:13em;
+    position: relative;
+}
+h3{
+    font-size:25px;
+    margin-left:25px;
+}
+.font-weight-bold.pt-5+p{
+    font-size:18px;
+}
+#half hr{
+    transform: rotate(90deg);
+    margin-top:-38em;
+    margin-left:-2em;
+    position: absolute;
+    width:105%;
+}
+#newsletter{
+    overflow-x: hidden;
+}
+#inbox{
+    height:0;
+}
+#inbox svg{
+    margin-top:-26em;
+}
+.imghead{
+    background: url("../images/bg2.png");
+    background-position: center;
+    background-size: cover;
+    height:14em;
+}
+.imghead>p{
+    font-size:27px;
+}
+br+p{
+    font-weight: bold;
+    font-size: 21px;
+}
+footer{
+    background:#F8F8F8;
+}
+footer ul{
+    font-size:21px;
+    padding-left:0;
+}
+footer li{
+    list-style: none;
+}
+.fa.fa-circle{
+    font-size: 15px;
+    color:#C4C4C4;
+}
+
+a i.fa{
+    font-size: 35px;
+    color: #454545;
+}
+footer hr{
+    margin:0;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 719px) {
+    body{
+        width: 100%;
+    }
+    #half{
+        margin-top:5em;
+        position: relative;
+    }
+    .border-right{
+        border:none !important;
+    }
+    
+    .abheaderoverlay h3{
+        font-size:27px !important;
+    }
+    .abheaderoverlay h3~p{
+        font-size:17px !important;
+    }
+    .login div[role="tablist"] a{
+        padding: .5em 1.38em !important;
+        font-size:20px;
+    }
+
+    form.contact>.row{
+        height: 21em !important;
+    }
+    
+  }
+
+  /* ABOUT PAGE */
+  header.abheader{
+    background: url("../images/bgcover.png");
+    background-position: center;
+    background-size: cover;
+    height:44em;
+}
+  .abheaderoverlay{
+    background-color:#260933d2;
+    height:44em;
+ }
+ .abheaderoverlay h3{
+     font-size:34px;
+ }
+ .abheaderoverlay h3~p{
+     font-size:24px;
+     font-weight: 300;
+ }
+
+ /* Login */
+ header.lgheader{
+    background: url("../images/bgcover.png");
+    background-position: center;
+    background-size: cover;
+    height:56em;
+}
+.lgheaderoverlay{
+    background-color:#260933d2;
+    height:56em;
+ }
+ 
+ .login div[role="tablist"] a{
+    padding: .5em .71em;
+    font-size:20px;
+}
+.login input, .reset input, .contact input, .sgdash input{
+    border:none;
+    border-radius: 0;
+}
+.login .form-group, .reset .form-group, .contact .form-group, .sgdash .form-group{
+    border:none;
+    border-bottom: 1px solid #000000;
+    border-radius: 0;
+}
+
+
+ /* Login */
+ header.cmheader{
+    background:none;
+    height:50em;
+}
+ header.header404{
+    background:none;
+}
+.lgheaderoverlay{
+    background-color:#260933d2;
+    height:56em;
+ }
+ 
+ .login div[role="tablist"] a{
+    padding: .5em 4.71em;
+    font-size:20px;
+}
+.login input, .reset input{
+    border:none;
+    border-radius: 0;
+}
+.login .form-group, .reset .form-group{
+    border:none;
+    border-bottom: 1px solid #000000;
+    border-radius: 0;
+}
+
+/* contact */
+form.contact>.row{
+    height: 30em;
+}
+
+h3.o{
+    margin-left:0;
+}
