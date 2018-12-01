@@ -1,0 +1,48 @@
+
+.class1{
+    margin-right: 8px;
+}
+.login{
+    margin-left: 8px;
+    width:100px;
+}
+
+
+
+.primarycolor{
+    color:#6C188F;
+}
+.primarybgcolor{
+    background-color:#6C188F;
+}
+.primarybgcolor:hover{
+    background-color:rgb(118, 52, 146);
+}
+.secondarycolor{
+    color: #351633;
+}
+.secondarybgcolor{
+    background-color: #351633;
+}
+.gray{
+    color:#C4C4C4;
+}
+.headbg{
+    background: #FFFFFF;
+    /* box-shadow: 5px 0px 15px #C4C4C4; */
+}
+.headbg2{
+    background: #FCFCFC;
+}
+.orange{
+    color:#FFA43A !important;
+}
+.green{
+    color:#2EB000 !important;
+}
+.graybg2{
+    background-color:rgb(235, 231, 231);
+}
+.graybg{
+    background-color:#C4C4C4;
+}
