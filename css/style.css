@@ -46,3 +46,13 @@
 .graybg{
     background-color:#C4C4C4;
 }
+
+.login input, .reset input, .contact input, .sgdash input{
+    border:none;
+    border-radius: 0;
+}
+.login .form-group, .reset .form-group, .contact .form-group, .sgdash .form-group{
+    border:none;
+    border-bottom: 1px solid #000000;
+    border-radius: 0;
+}
